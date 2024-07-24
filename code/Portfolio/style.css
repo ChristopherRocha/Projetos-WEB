@@ -1,0 +1,22 @@
+html 
+{
+    background-color: rgb(12, 7, 12);
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.biografia{
+    background-color: rgb(14, 3, 27);
+    padding: 50px;
+    text-align: center;
+    color: rebeccapurple;
+    font-size: medium;
+    margin: auto;
+    width: 50%;
+    
+}
+

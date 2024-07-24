@@ -1,0 +1,91 @@
+
+body
+{
+    background-color: gainsboro;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    
+}
+/*Links */
+a:hover
+{
+    text-decoration: underline;
+}
+
+a{
+    color: rgb(14, 14, 107);
+    text-decoration: none;
+}
+
+/* Menus */
+.menu
+{
+    text-align: center;
+    
+}
+.menu a:hover
+{
+    background-color: rebeccapurple;
+}
+.menu li
+{
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(177, 173, 173);
+    
+}
+.menu a{
+    display: inline-block;
+    padding: 16px;
+    background-color: rgb(177, 173, 173);
+}
+
+/* Lista */ 
+ul{
+    padding-left: 0;
+
+}
+
+li
+{
+    list-style-position: inside;
+}
+
+/* Texto */ 
+p
+{
+    font-size: 10px;
+}
+
+.subtitulo
+{
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(147, 168, 224);
+    padding: 5px;
+    margin-top: 0;
+
+}
+h1{
+    
+    text-align: center;
+    padding: 5px;
+    color: rgb(14, 14, 107);
+    background-color: rgb(128, 152, 218);
+    margin-bottom: 0px;
+}
+
+h2{
+    color: rgb(14, 14, 107);
+    background-color: rgb(177, 173, 173);
+    border-bottom: 2px solid rgb(14, 14, 107);
+}
+
+h6
+{
+    color: rgb(14, 14, 107);
+}
+
