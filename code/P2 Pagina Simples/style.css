@@ -96,6 +96,7 @@ article
 }
 article h2
 {
+    border-radius: 7px;
     border-bottom: 2px solid lightslategray;
     padding-top: 10px;
     background-color: lightgray;
