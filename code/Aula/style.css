@@ -1,0 +1,64 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+
+.principal
+{
+    height: 300px;
+    display: flex;
+    border: 3px solid red;
+    margin-bottom: 16px;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    flex-flow: column wrap;
+}
+
+.principal div
+{
+
+    border: 2px solid orange;
+    width: 200px;
+    margin: 15px;
+}
+
+.principal2
+{
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border: 3px solid red;
+    
+
+    /* Justify horizontal e Align vertical */
+    /* Align content priorizado pelo wrap e align items padrao */ 
+    flex-flow: row wrap;
+    justify-content:space-around;
+
+    align-items:center;
+    align-content: flex-end;
+}
+
+.principal2 div
+{
+
+    border: 2px solid orange;
+    width: 100px;
+    margin: 15px;
+}
+
+.primeira
+{
+    background-color: green;
+}
+
+.segunda
+{
+    background-color: blue;
+}
+
+.terceira
+{
+    background-color: yellow;
+}
