@@ -1,0 +1,133 @@
+body
+{
+    background-color: #0c1014;
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 960px;
+    font-family: 'Gill Sans',
+    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-title
+{
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+header
+{
+    display: flex;
+    background-color: #05080a;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo
+{
+    font-size: 36px;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.header__list
+{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    gap: 15px;
+}
+
+
+.header__list a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.header__list a:hover
+{
+    text-decoration: underline;
+    background-color: rebeccapurple;
+    color: #0c1014;
+}
+
+a.header__nav--active
+{
+    background-color: rebeccapurple;
+    pointer-events: none;
+}
+
+.plans-container
+{
+    display: flex;
+    gap: 15px;
+}
+
+.plan
+{
+    padding: 16px 30px;
+    flex: 1;
+    background-color: #1f262c;
+    border-radius: 6px;
+    box-shadow: 0 5px 13px -6px rebeccapurple;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan__title
+{
+    text-transform: uppercase;
+    border-bottom: 2px solid rebeccapurple;
+    margin-top: 0;
+    padding-bottom: 10px;
+
+}
+
+
+.plan__price 
+{
+    font-size: 34px;
+}
+
+.plan__contents
+{
+    margin: 0 0 35;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.9;
+    flex-grow: 1;
+
+}
+
+.plan__contents li::marker
+{
+    color: rebeccapurple;
+}
+
+.plan__cta
+{
+    background-color: rebeccapurple;
+    color: #1f262c;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 16px 0px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.plan__cta:hover
+{
+    background-color: transparent;
+    outline:2px solid rebeccapurple;
+    color: white;
+}
